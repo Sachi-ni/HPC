@@ -32,3 +32,12 @@ int main() {
 
     return 0;
 }
+// before
+//Final value of shared_variable is 8000000.
+//Runtime: 0.004511 seconds
+
+
+
+//now
+//Final value of shared_variable is 8000000.
+//Runtime: 2.583813 seconds
