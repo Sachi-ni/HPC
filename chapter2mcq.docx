@@ -1,0 +1,512 @@
+Yes. Below is a **Moodle-style Single Answer MCQ practice set** based directly on the uploaded **Physical Organization of Parallel Platforms – Part 2** lesson. Each question has **ONE correct answer only**. 
+
+## ICA MCQ Practice — Set 1
+
+**Instructions:** Select **ONE** answer for each question.
+
+### 1. What does PRAM stand for?
+
+A. Parallel Random Access Machine
+B. Processor Random Access Memory
+C. Parallel Remote Access Machine
+D. Processor Read Access Machine
+
+---
+
+### 2. In an ideal PRAM model, processors access:
+
+A. Separate memory spaces
+B. A global shared memory
+C. Only local cache
+D. Only secondary storage
+
+---
+
+### 3. Which PRAM model allows neither concurrent reads nor concurrent writes?
+
+A. CREW
+B. CRCW
+C. ERCW
+D. EREW
+
+---
+
+### 4. Which PRAM model allows concurrent reads but exclusive writes?
+
+A. EREW
+B. CREW
+C. ERCW
+D. CRCW
+
+---
+
+### 5. Which PRAM model allows exclusive reads and concurrent writes?
+
+A. ERCW
+B. CREW
+C. EREW
+D. CRCW
+
+---
+
+### 6. Which PRAM model allows both concurrent reads and concurrent writes?
+
+A. EREW
+B. CREW
+C. ERCW
+D. CRCW
+
+---
+
+### 7. Which is the weakest PRAM model?
+
+A. CRCW
+B. ERCW
+C. CREW
+D. EREW
+
+---
+
+### 8. Which is the most powerful PRAM model?
+
+A. EREW
+B. CREW
+C. ERCW
+D. CRCW
+
+---
+
+### 9. In the Common concurrent-write protocol, a write is allowed when:
+
+A. The highest-priority processor writes
+B. All processors write identical values
+C. The first processor writes
+D. The sum of all values is written
+
+---
+
+### 10. In the Priority protocol, which processor succeeds?
+
+A. Lowest-priority processor
+B. Random processor
+C. Highest-priority processor
+D. Last processor
+
+---
+
+### 11. In the Sum protocol, what happens when several processors write values concurrently?
+
+A. Only the first value is stored
+B. The highest value is stored
+C. The values are summed
+D. All writes fail
+
+---
+
+### 12. An interconnection network provides mechanisms for:
+
+A. Data transfer between processing nodes
+B. Only data storage
+C. Only instruction execution
+D. Only cache replacement
+
+---
+
+### 13. A physical communication medium such as wires or fibers is called a:
+
+A. Switch
+B. Link
+C. Router table
+D. Cache
+
+---
+
+### 14. A static network is also called a:
+
+A. Indirect network
+B. Dynamic network
+C. Direct network
+D. Switching network
+
+---
+
+### 15. A dynamic network is also called a:
+
+A. Direct network
+B. Indirect network
+C. Static network
+D. Linear network
+
+---
+
+### 16. Which network uses communication links connected dynamically by switches?
+
+A. Static network
+B. Dynamic network
+C. Linear array
+D. Ring
+
+---
+
+### 17. Which of the following is a responsibility of a network interface?
+
+A. Packetizing data
+B. Increasing CPU clock speed
+C. Managing the operating system
+D. Compiling source code
+
+---
+
+### 18. Physical topology describes:
+
+A. How data logically flows
+B. Physical placement of network components
+C. CPU instruction execution
+D. Memory allocation
+
+---
+
+### 19. Logical topology describes:
+
+A. Cable installation
+B. Physical device location
+C. How data flows through the network
+D. Processor clock frequency
+
+---
+
+### 20. Nodal degree refers to:
+
+A. Maximum distance between nodes
+B. Number of links connected to a node
+C. Number of processors in the network
+D. Number of switches in the network
+
+---
+
+### 21. Network diameter is the:
+
+A. Minimum number of links in the network
+B. Maximum distance between any two processing nodes
+C. Number of processors connected to a bus
+D. Number of switches in one stage
+
+---
+
+### 22. Arc connectivity refers to the minimum number of ______ that must be removed to disconnect a network.
+
+A. Processors
+B. Memory modules
+C. Arcs/links
+D. Cache lines
+
+---
+
+### 23. Bisection width is the minimum number of communication links required to:
+
+A. Connect two processors
+B. Partition the network into two equal halves
+C. Increase bandwidth
+D. Add a new processor
+
+---
+
+### 24. What is the main characteristic of a bus-based network?
+
+A. Every node has a private communication link
+B. Communication wires are shared
+C. Every node connects to every other node
+D. It contains no communication medium
+
+---
+
+### 25. What is a major advantage of a bus-based network?
+
+A. Very high cost
+B. Low cost and flexibility
+C. Unlimited bandwidth
+D. No contention
+
+---
+
+### 26. What happens as more devices are connected to a shared bus?
+
+A. Contention generally decreases
+B. Performance always increases
+C. Contention increases
+D. Diameter becomes zero
+
+---
+
+### 27. What is the diameter of a bus-based network according to the lesson?
+
+A. 0
+B. 1
+C. 2
+D. p − 1
+
+---
+
+### 28. What is the nodal degree of a bus-based network?
+
+A. 0
+B. 1
+C. 2
+D. p − 1
+
+---
+
+### 29. Crossbar networks primarily use:
+
+A. A linear chain of processors
+B. A grid of switches
+C. A single shared wire
+D. A tree of caches
+
+---
+
+### 30. A crossbar network is considered:
+
+A. Blocking
+B. Non-blocking
+C. Static only
+D. Randomized
+
+---
+
+### 31. In a crossbar network, a conflict occurs when two processors:
+
+A. Access different memory modules
+B. Access the same memory module simultaneously
+C. Execute different instructions
+D. Use different processors
+
+---
+
+### 32. Compared with a bus, a crossbar network generally provides:
+
+A. Lower performance
+B. Higher performance
+C. No simultaneous communication
+D. No switching
+
+---
+
+### 33. What is a major disadvantage of a crossbar network?
+
+A. Low performance
+B. High switch and link cost
+C. No simultaneous communication
+D. No memory access
+
+---
+
+### 34. If a crossbar connects `p` processors to `b` memory banks, its number of switching nodes is:
+
+A. Θ(p + b)
+B. Θ(p − b)
+C. Θ(pb)
+D. Θ(p/b)
+
+---
+
+### 35. As the number of processors increases, the switching-network complexity of the crossbar grows as:
+
+A. O(1)
+B. Ω(p²)
+C. O(log p)
+D. Ω(p)
+
+---
+
+### 36. A multistage network is positioned between:
+
+A. Ring and mesh
+B. Bus and crossbar
+C. Star and hypercube
+D. Linear array and ring
+
+---
+
+### 37. Compared with a crossbar, a multistage network is generally more scalable in terms of:
+
+A. Cost
+B. Processor speed
+C. Cache size
+D. Memory capacity
+
+---
+
+### 38. An Omega network contains how many stages for `p` inputs?
+
+A. p
+B. p/2
+C. log₂ p
+D. 2p
+
+---
+
+### 39. Each stage of an Omega network contains:
+
+A. p switches
+B. p/2 switches
+C. log₂p switches
+D. 2p switches
+
+---
+
+### 40. The interconnection pattern used in an Omega network is called:
+
+A. Binary tree
+B. Perfect shuffle
+C. Ring shuffle
+D. Random shuffle
+
+---
+
+### 41. An Omega switch has which two connection modes?
+
+A. Read and write
+B. Input and output
+C. Pass-through and cross-over
+D. Static and dynamic
+
+---
+
+### 42. In Omega routing, if the relevant source and destination bits are the same, the switch uses:
+
+A. Cross-over
+B. Pass-through
+C. Random routing
+D. Broadcast
+
+---
+
+### 43. In Omega routing, if the relevant source and destination bits are different, the switch uses:
+
+A. Pass-through
+B. Cross-over
+C. Broadcast
+D. Invalidation
+
+---
+
+### 44. An Omega network is classified as a:
+
+A. Non-blocking network
+B. Blocking network
+C. Fully connected network
+D. Ring network
+
+---
+
+### 45. In a completely connected network, each node has a direct link to:
+
+A. Only one node
+B. Two nodes
+C. Every other node
+D. The central node only
+
+---
+
+### 46. What is the diameter of a completely connected network?
+
+A. 0
+B. 1
+C. 2
+D. p − 1
+
+---
+
+### 47. What is the nodal degree of a completely connected network containing `p` nodes?
+
+A. 1
+B. 2
+C. p
+D. p − 1
+
+---
+
+### 48. In a star-connected network, one processor acts as the:
+
+A. Memory bank
+B. Central processor
+C. Cache controller
+D. Router table
+
+---
+
+### 49. What is the main bottleneck in a star topology?
+
+A. Edge processor
+B. Central processor
+C. Memory bank
+D. Cache line
+
+---
+
+### 50. What is the diameter of a star-connected network?
+
+A. 1
+B. 2
+C. p − 1
+D. p/2
+
+---
+
+## Answer Key
+
+|  Q | Answer | Key concept             |
+| -: | :----: | ----------------------- |
+|  1 |  **A** | PRAM                    |
+|  2 |  **B** | Global memory           |
+|  3 |  **D** | EREW                    |
+|  4 |  **B** | CREW                    |
+|  5 |  **A** | ERCW                    |
+|  6 |  **D** | CRCW                    |
+|  7 |  **D** | Weakest PRAM            |
+|  8 |  **D** | Strongest PRAM          |
+|  9 |  **B** | Common protocol         |
+| 10 |  **C** | Priority                |
+| 11 |  **C** | Sum                     |
+| 12 |  **A** | Interconnection network |
+| 13 |  **B** | Link                    |
+| 14 |  **C** | Static/direct           |
+| 15 |  **B** | Dynamic/indirect        |
+| 16 |  **B** | Dynamic                 |
+| 17 |  **A** | Network interface       |
+| 18 |  **B** | Physical topology       |
+| 19 |  **C** | Logical topology        |
+| 20 |  **B** | Nodal degree            |
+| 21 |  **B** | Diameter                |
+| 22 |  **C** | Arc connectivity        |
+| 23 |  **B** | Bisection width         |
+| 24 |  **B** | Bus                     |
+| 25 |  **B** | Bus advantage           |
+| 26 |  **C** | Bus contention          |
+| 27 |  **B** | Bus diameter            |
+| 28 |  **B** | Bus degree              |
+| 29 |  **B** | Crossbar                |
+| 30 |  **B** | Non-blocking            |
+| 31 |  **B** | Same memory module      |
+| 32 |  **B** | Crossbar performance    |
+| 33 |  **B** | Crossbar cost           |
+| 34 |  **C** | Θ(pb)                   |
+| 35 |  **B** | Ω(p²)                   |
+| 36 |  **B** | Bus ↔ Crossbar          |
+| 37 |  **A** | Cost                    |
+| 38 |  **C** | log₂p                   |
+| 39 |  **B** | p/2                     |
+| 40 |  **B** | Perfect shuffle         |
+| 41 |  **C** | Pass/cross              |
+| 42 |  **B** | Same → pass             |
+| 43 |  **B** | Different → cross       |
+| 44 |  **B** | Blocking                |
+| 45 |  **C** | Every other node        |
+| 46 |  **B** | Diameter = 1            |
+| 47 |  **D** | p − 1                   |
+| 48 |  **B** | Central processor       |
+| 49 |  **B** | Central processor       |
+| 50 |  **B** | Diameter = 2            |
+
+These questions cover the first major portion of the uploaded lesson through the basic network topologies. The remaining high-value ICA material is **linear array, ring, mesh, torus, hypercube calculations, cache coherence, false sharing, snooping/directory protocols, XY routing, E-Cube routing, adaptive routing, and randomized routing**. 
